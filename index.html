@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philip Antwi - Geospatial Analyst | Licensed Drone Pilot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Philip Antwi</div>
+            <div class="nav-menu">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#portfolio" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="./PHILIP_ANTWI_470.jpg" alt="Philip Antwi - Professional Photo">
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-name">Philip Antwi</h1>
+                    <h2 class="hero-title">Geospatial Analyst | Licensed Drone Pilot</h2>
+                    <p class="hero-statement">Leveraging drone technology and AI to deliver precise geospatial data for environmental and infrastructural analysis.</p>
+                    <button class="hero-cta" onclick="scrollToSection('portfolio')">
+                        View My Project Deliverables
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m7 13 3 3 7-7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Professional Summary</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <p>As a detail-oriented problem solver with extensive experience in geospatial analysis, I combine advanced drone technology with artificial intelligence to deliver precise, actionable insights for environmental monitoring and infrastructure assessment. My expertise spans team leadership, AI model training, and processing complex remote sensing data.</p>
+                <p>I specialize in transforming raw geospatial data into valuable intelligence for decision-making in environmental monitoring, infrastructure development, and surveying applications. My work in surveying-related projects is conducted under appropriate licensed supervision, ensuring the highest standards of professional practice.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Proficiency</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-filter">
+                <button class="filter-btn active" data-filter="all">All Skills</button>
+                <button class="filter-btn" data-filter="gis">GIS & Analysis</button>
+                <button class="filter-btn" data-filter="uav">UAV Operations</button>
+                <button class="filter-btn" data-filter="ai">AI & Processing</button>
+                <button class="filter-btn" data-filter="field">Field Tech</button>
+            </div>
+            <div class="skills-grid">
+                <!-- GIS & Analysis Skills -->
+                <div class="skill-card" data-category="gis">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                    <h3>QGIS</h3>
+                    <p>Advanced geospatial analysis and mapping</p>
+                </div>
+
+                <div class="skill-card" data-category="gis">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3>Raster/Vector Analysis</h3>
+                    <p>Complex spatial data processing</p>
+                </div>
+
+                <div class="skill-card" data-category="gis">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                    </div>
+                    <h3>Image Classification</h3>
+                    <p>Automated land use/cover mapping</p>
+                </div>
+
+                <div class="skill-card" data-category="gis">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1"></path>
+                        </svg>
+                    </div>
+                    <h3>Volume Computation</h3>
+                    <p>Precise volumetric calculations</p>
+                </div>
+
+                <!-- UAV Operations Skills -->
+                <div class="skill-card" data-category="uav">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                    </div>
+                    <h3>Licensed Drone Pilot</h3>
+                    <p>G.CAA certified UAV operations</p>
+                </div>
+
+                <div class="skill-card" data-category="uav">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12,6 12,12 16,14"></polyline>
+                        </svg>
+                    </div>
+                    <h3>DJI M300/Matrice</h3>
+                    <p>Professional drone platforms</p>
+                </div>
+
+                <div class="skill-card" data-category="uav">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m8 3 4 8 5-5v11H6V6l5 5"></path>
+                        </svg>
+                    </div>
+                    <h3>Mavic 3E</h3>
+                    <p>Compact professional mapping</p>
+                </div>
+
+                <div class="skill-card" data-category="uav">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73L12 2 4 6.27A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73L12 22l8-4.27A2 2 0 0 0 21 16z"></path>
+                        </svg>
+                    </div>
+                    <h3>Deltaquad</h3>
+                    <p>Long-range mapping UAV</p>
+                </div>
+
+                <div class="skill-card" data-category="uav">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="3,6 5,6 21,6"></polygon>
+                            <path d="M6 6v14c0 1 1 2 2 2h8c1 0 2-1 2-2V6"></path>
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path>
+                        </svg>
+                    </div>
+                    <h3>Mission Planning</h3>
+                    <p>Strategic flight operations</p>
+                </div>
+
+                <!-- AI & Processing Skills -->
+                <div class="skill-card" data-category="ai">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12.75 3.94v16.06M8.21 9.1C5.8 9.1 3.86 7.16 3.86 4.75h-1.5c0 3.72 3.03 6.75 6.75 6.75 3.72 0 6.75-3.03 6.75-6.75h-1.5c0 2.41-1.94 4.35-4.35 4.35z"></path>
+                        </svg>
+                    </div>
+                    <h3>Python</h3>
+                    <p>Geospatial data processing</p>
+                </div>
+
+                <div class="skill-card" data-category="ai">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="14" y="14" width="4" height="6" rx="2"></rect>
+                            <rect x="6" y="4" width="4" height="16" rx="2"></rect>
+                            <path d="M6 20h4"></path>
+                            <path d="M14 10h4"></path>
+                            <path d="M6 14h2v4"></path>
+                            <path d="M14 4h2v6"></path>
+                        </svg>
+                    </div>
+                    <h3>Metashape</h3>
+                    <p>Photogrammetric processing</p>
+                </div>
+
+                <div class="skill-card" data-category="ai">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12a9 9 0 1 1-6.219-8.56"></path>
+                        </svg>
+                    </div>
+                    <h3>WebODM</h3>
+                    <p>Open-source mapping</p>
+                </div>
+
+                <div class="skill-card" data-category="ai">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 12l2 2 4-4"></path>
+                            <path d="M21 12c.552 0 1-.448 1-1s-.448-1-1-1-1 .448-1 1 .448 1 1 1"></path>
+                            <path d="M3 12c.552 0 1-.448 1-1s-.448-1-1-1-1 .448-1 1 .448 1 1 1"></path>
+                            <path d="M12 3c.552 0 1-.448 1-1s-.448-1-1-1-1 .448-1 1 .448 1 1 1"></path>
+                            <path d="M12 21c.552 0 1-.448 1-1s-.448-1-1-1-1 .448-1 1 .448 1 1 1"></path>
+                        </svg>
+                    </div>
+                    <h3>Picterra</h3>
+                    <p>AI-powered imagery analysis</p>
+                </div>
+
+                <div class="skill-card" data-category="ai">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path d="M12 1v6m0 6v6"></path>
+                            <path d="m15.5 3.5-1.5 1.5m0 12 1.5 1.5M1 12h6m6 0h6m-15.5-3.5 1.5 1.5m12 0 1.5-1.5"></path>
+                        </svg>
+                    </div>
+                    <h3>AI Model Training</h3>
+                    <p>Custom ML solutions</p>
+                </div>
+
+                <div class="skill-card" data-category="ai">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <path d="M16 8v5a3 3 0 0 0 6 0v-5a4 4 0 1 0-8 8"></path>
+                            <polyline points="2,12 6,12 8,7 10,17 12,12 16,12"></polyline>
+                        </svg>
+                    </div>
+                    <h3>LiDAR Processing</h3>
+                    <p>3D point cloud analysis</p>
+                </div>
+
+                <!-- Field Tech Skills -->
+                <div class="skill-card" data-category="field">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                    </div>
+                    <h3>GNSS/GPS Receivers</h3>
+                    <p>High-precision positioning</p>
+                </div>
+
+                <div class="skill-card" data-category="field">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="13" r="8"></circle>
+                            <path d="M12 9l-2 3h4l-2 3"></path>
+                            <path d="M5 3L3 5"></path>
+                            <path d="M19 3l2 2"></path>
+                            <path d="M5 21l-2-2"></path>
+                            <path d="M19 21l2-2"></path>
+                        </svg>
+                    </div>
+                    <h3>Total Station Operation</h3>
+                    <p>Precision surveying equipment</p>
+                </div>
+
+                <div class="skill-card" data-category="field">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+                            <path d="M7 8h10"></path>
+                            <path d="M7 12h10"></path>
+                            <path d="M7 16h6"></path>
+                        </svg>
+                    </div>
+                    <h3>Epicollect5</h3>
+                    <p>Mobile data collection</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Project Deliverables & Outcomes</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Project 1: Akosombo Dam Spillage Monitoring -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <p>Image: Flood Extent Map</p>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Akosombo Dam Spillage Monitoring</h3>
+                            <span class="project-date">2023</span>
+                        </div>
+                        <p class="project-description">AI-powered flood extent detection and environmental impact assessment for critical infrastructure monitoring.</p>
+                        <ul class="project-achievements">
+                            <li>Trained & deployed AI model for automated flood extent detection</li>
+                            <li>Processed multi-temporal satellite and UAV imagery</li>
+                            <li>Generated impact assessment reports for decision-makers</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">DJI M300</span>
+                            <span class="tech-tag">Picterra AI</span>
+                            <span class="tech-tag">QGIS</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Crack Detection -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                        </svg>
+                        <p>Image: Crack Detection Orthomosaic</p>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Infrastructure Crack Detection</h3>
+                            <span class="project-date">2023</span>
+                        </div>
+                        <p class="project-description">Automated detection and mapping of structural defects using high-resolution UAV imaging and AI analysis.</p>
+                        <ul class="project-achievements">
+                            <li>Developed custom AI model for crack pattern recognition</li>
+                            <li>Created high-resolution orthomosaic maps</li>
+                            <li>Delivered quantitative structural assessment reports</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Mavic 3E</span>
+                            <span class="tech-tag">Metashape</span>
+                            <span class="tech-tag">AI Training</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Aquatic Weed Invasion -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M7 20.662V13H2l8-8 8 8h-5v7.662"></path>
+                            <path d="M16 10h5a1 1 0 0 1 .68.27l2.5 2.27a1 1 0 0 1 0 1.46l-2.5 2.27A1 1 0 0 1 21 17h-5"></path>
+                        </svg>
+                        <p>Image: Vegetation Classification Map</p>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Aquatic Weed Invasion Assessment</h3>
+                            <span class="project-date">2023</span>
+                        </div>
+                        <p class="project-description">Environmental monitoring and mapping of invasive aquatic vegetation using spectral analysis and machine learning.</p>
+                        <ul class="project-achievements">
+                            <li>Mapped distribution patterns of invasive species</li>
+                            <li>Analyzed temporal changes in vegetation coverage</li>
+                            <li>Provided management recommendations for ecosystem preservation</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Multispectral Imaging</span>
+                            <span class="tech-tag">QGIS</span>
+                            <span class="tech-tag">WebODM</span>
+                            <span class="tech-tag">Classification</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Bathymetric Survey -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 3v18h18"></path>
+                            <path d="M18.7 8.7c-.4-.4-.7-.7-1-1-.6-.5-1.2-.9-1.9-1.2C14.7 6.2 13.4 6 12 6s-2.7.2-3.8.5c-.7.3-1.3.7-1.9 1.2-.3.3-.6.6-1 1-.4.4-.8.8-1.1 1.3-.3.5-.5 1-.6 1.5-.1.5-.1 1-.1 1.5s0 1 .1 1.5c.1.5.3 1 .6 1.5.3.5.7.9 1.1 1.3.4.4.7.7 1 1 .6.5 1.2.9 1.9 1.2C9.3 17.8 10.6 18 12 18s2.7-.2 3.8-.5c.7-.3 1.3-.7 1.9-1.2.3-.3.6-.6 1-1"></path>
+                        </svg>
+                        <p>Image: Bathymetric Contour Map</p>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Bathymetric Survey Operations</h3>
+                            <span class="project-date">2023</span>
+                        </div>
+                        <p class="project-description">Comprehensive underwater topography mapping for water resource management and engineering applications.</p>
+                        <ul class="project-achievements">
+                            <li>Generated detailed bathymetric contour maps</li>
+                            <li>Calculated water volume and capacity measurements</li>
+                            <li>Integrated sonar data with surface positioning systems</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Sonar Systems</span>
+                            <span class="tech-tag">GNSS</span>
+                            <span class="tech-tag">Volume Computation</span>
+                            <span class="tech-tag">CAD Integration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Experience & Education</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="experience-content">
+                <div class="experience-column">
+                    <h3>Professional Experience</h3>
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h4>Geospatial Analyst | Drone Pilot</h4>
+                            <span class="company">A-M Surveys Ltd</span>
+                        </div>
+                        <p class="experience-description">Leading geospatial data analysis and UAV operations for infrastructure and environmental monitoring projects. Specializing in AI-powered remote sensing and precision mapping solutions.</p>
+                    </div>
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h4>Founder</h4>
+                            <span class="company">Civil Waste</span>
+                        </div>
+                        <p class="experience-description">Demonstrated entrepreneurial leadership and project management skills in developing innovative waste management solutions, showcasing strategic thinking and business acumen.</p>
+                    </div>
+                </div>
+                <div class="experience-column">
+                    <h3>Education & Certifications</h3>
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h4>UAV Certificate & Licence</h4>
+                            <span class="company">G.CAA / UmaT</span>
+                        </div>
+                        <p class="experience-description">Licensed Remote Pilot Certificate enabling commercial UAV operations for surveying and mapping applications.</p>
+                    </div>
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h4>Deltaquad Pro Pilot Certificate</h4>
+                            <span class="company">Deltaquad</span>
+                        </div>
+                        <p class="experience-description">Advanced certification for long-range mapping UAV operations, demonstrating expertise in professional drone technology.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <span>antwipk2@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        <span>+233 XX XXX XXXX</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m16 8 2-2-2-2"></path>
+                                <path d="m8 16-2 2 2 2"></path>
+                                <path d="m15 5 4 4"></path>
+                                <path d="M4 20v-8a4 4 0 0 1 8 0v8"></path>
+                                <path d="M8 12h8"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" title="GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        Send Message
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22,2 15,22 11,13 2,9"></polygon>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Philip Antwi. All rights reserved. | Licensed Geospatial Analyst & Drone Pilot</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
